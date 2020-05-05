@@ -1,0 +1,95 @@
+ 
+
+/*Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+
+    body{
+        height: 100vh;
+        width:100vw;
+    }
+.homeimage{
+    
+    margin-top: 4rem;
+        width: inherit;
+        object-fit: cover;
+        height: 105rem; /* only if you want fixed height */
+}
+
+.hometitle{
+font-family: Sneaky-Times;
+font-size: 8rem;
+z-index: 10;}
+
+.progetti{
+font-size: 2rem;}
+
+
+.layerNavigazione{
+    position: absolute;
+}
+
+body{
+    font-family: Sneaky-Times ;
+}
+
+.sezioni{
+        font-family: Sneaky-Times ;
+font-size: 3rem;
+position: fixed;
+bottom:3rem;
+right:-75rem;}
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    
+    
+.homeimage{
+    
+    margin-top: 4rem;
+        width: inherit;
+        object-fit: cover;
+        height: 40rem; /* only if you want fixed height */
+}
+
+.hometitle{
+font-family: Sneaky-Times;
+font-size: 8rem;
+z-index: 10;}
+
+.progetti{
+font-size: 2rem;}
+
+
+.layerNavigazione{
+    position: absolute;
+}
+
+body{
+    font-family: Sneaky-Times ;
+}
+
+.sezioni{
+        font-family: Sneaky-Times ;
+font-size: 3rem;
+position: fixed;
+bottom:3rem;
+right:-75rem;}
+
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
+
+
